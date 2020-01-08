@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sin.android.pl2303hxa"
+4    android:versionCode="1"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.hardware.usb.host" />
+11-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:9:5-65
+11-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:9:22-62
+12    <uses-permission android:name="android.hardware.usb.accessory" />
+12-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:10:5-70
+12-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:10:22-67
+13
+14    <application
+14-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:12:5-27:19
+15        android:allowBackup="true"
+15-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:13:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\36030\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:icon="@drawable/ic_launcher"
+17-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:14:9-45
+18        android:label="@string/app_name"
+18-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:15:9-41
+19        android:theme="@style/AppTheme" >
+19-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:16:9-40
+20        <activity
+20-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:17:9-26:20
+21            android:name="com.sin.android.demo.MainActivity"
+21-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:18:13-61
+22            android:configChanges="orientation|keyboardHidden"
+22-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:19:13-63
+23            android:label="@string/app_name" >
+23-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:20:13-45
+24            <intent-filter>
+24-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:21:13-25:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:22:17-69
+25-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:22:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:24:17-77
+27-->D:\AndroidProjects\3333\AndroidPL2303HXA\src\main\AndroidManifest.xml:24:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\36030\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\36030\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+33            android:authorities="com.sin.android.pl2303hxa.lifecycle-process"
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\36030\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+34            android:exported="false"
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\36030\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+35            android:multiprocess="true" />
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\36030\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+36    </application>
+37
+38</manifest>
